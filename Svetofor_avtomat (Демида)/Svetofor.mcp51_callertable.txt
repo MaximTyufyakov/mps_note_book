@@ -1,0 +1,17 @@
+main
+	__CC2D
+	init
+		DelayMs
+		outcw
+		outd
+			translate
+	strcpy
+	out_str
+		outcw
+		outd
+			translate
+	ScanKbd
+	DelayMs
+INT1_Interrupt
+INT0_Interrupt
+Timer1InterruptHandler

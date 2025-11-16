@@ -1,0 +1,11 @@
+D:/Óק¸בא/4 Êףנס/ÌÏÑ/4 ËÐ/NoteBook/NoteBook.c:2: error: Can't open include file "intrpt.h"
+    #include <intrpt.h>
+D:/Óק¸בא/4 Êףנס/ÌÏÑ/4 ËÐ/NoteBook/NoteBook.c:53: error: Unknown #directive "asm"
+     #asm
+D:/Óק¸בא/4 Êףנס/ÌÏÑ/4 ËÐ/NoteBook/NoteBook.c:55: error: Unknown #directive "endasm"
+     #endasm
+D:/Óק¸בא/4 Êףנס/ÌÏÑ/4 ËÐ/NoteBook/NoteBook.c:65: error: Unknown #directive "asm"
+     #asm
+D:/Óק¸בא/4 Êףנס/ÌÏÑ/4 ËÐ/NoteBook/NoteBook.c:67: error: Unknown #directive "endasm"
+     #endasm
+5 errors in preprocessor.

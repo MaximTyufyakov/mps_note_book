@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title><![CDATA[MIKROE news feed]]></title>
+		<link>https://www.mikroe.com/</link>
+		<atom:link href="https://www.mikroe.com/rss/" rel="self" type="application/rss+xml" />
+		<description>RSS</description>
+		<pubDate>Thu, 13 Nov 2025 08:31:39 +0100</pubDate>
+		<image>
+			<url>https://www.mikroe.com/img/logo.jpg</url>
+			<title><![CDATA[MIKROE news feed]]></title>
+			<link>https://www.mikroe.com/</link>
+		</image>
+		<item>
+			<guid>https://www.mikroe.com/blog/discover-a-new-board-from-stmicroelectronics-with-mikrobus-socket</guid>
+			<title><![CDATA[Discover a new board from STMicroelectronics with mikroBUS™ socket]]></title>
+			<pubDate>Wed, 12 Nov 2025 14:36:14 +0100</pubDate>
+			<category><![CDATA[mikroBUS™]]></category>
+			<link>https://www.mikroe.com/blog/discover-a-new-board-from-stmicroelectronics-with-mikrobus-socket</link>
+			<description xml:space="preserve"><![CDATA[Discover a new dev board featuring
+mikroBUS™ socket!
+ 
+
+
+
+590 DEV BOARDS
+WITH mikroBUS™
+SOCKET
+
+
+ 
+
+
+Today, we present 6th board from STMicroelectronics that has adopted the mikroBU [...]]]></description>
+		</item>
+		<item>
+			<guid>https://www.mikroe.com/blog/release-for-wed-nov-12</guid>
+			<title><![CDATA[Release for Wed Nov 12]]></title>
+			<pubDate>Wed, 12 Nov 2025 10:09:38 +0100</pubDate>
+			<category><![CDATA[SW daily release]]></category>
+			<link>https://www.mikroe.com/blog/release-for-wed-nov-12</link>
+			<description xml:space="preserve"><![CDATA[New:
+
+
+	Driver for GNSS 28 Click
+	Plot Demo
+	CY8C4149LDS CODEGRIP Device Pack
+	R7JA8P1 CODEGRIP Device Pack
+	R7JA8T2L CODEGRIP Device Pack
+	CY8C4149LDS MCU Support package for GCC & [...]]]></description>
+		</item>
+		<item>
+			<guid>https://www.mikroe.com/blog/gnss-28-click-designed-for-precise-multi-constellation-satellite-positioning-and-reliable-navigation-performance</guid>
+			<title><![CDATA[GNSS 28 Click designed for precise multi-constellation satellite positioning and]]></title>
+			<pubDate>Wed, 12 Nov 2025 10:00:00 +0100</pubDate>
+			<category><![CDATA[Click boards]]></category>
+			<link>https://www.mikroe.com/blog/gnss-28-click-designed-for-precise-multi-constellation-satellite-positioning-and-reliable-navigation-performance</link>
+			<description xml:space="preserve"><![CDATA[Add precise multi-constellation GNSS positioning for tracking, navigation, and environmental monitoring applications with SL871LG3240R003000
+
+ 
+
+GNSS 28 Click is a compact add-on board that  [...]]]></description>
+		</item>
+		<item>
+			<guid>https://www.mikroe.com/blog/release-for-tue-nov-11</guid>
+			<title><![CDATA[Release for Tue Nov 11]]></title>
+			<pubDate>Tue, 11 Nov 2025 10:10:01 +0100</pubDate>
+			<category><![CDATA[SW daily release]]></category>
+			<link>https://www.mikroe.com/blog/release-for-tue-nov-11</link>
+			<description xml:space="preserve"><![CDATA[New:
+
+
+	Driver for EEPROM 14 Click
+	CY8C4146LQQ CODEGRIP Device Pack
+	R7JA8D2 CODEGRIP Device Pack
+	RA8T1 CODEGRIP Device Pack
+	CY8C4146LQQ MCU Support package for GCC & Clang
+	R7JA8D2 MCU [...]]]></description>
+		</item>
+		<item>
+			<guid>https://www.mikroe.com/blog/eeprom-14-click-featuring-automotive-grade-high-endurance-eeprom-for-reliable-long-term-data-storage</guid>
+			<title><![CDATA[EEPROM 14 Click featuring automotive-grade high-endurance EEPROM for reliable lo]]></title>
+			<pubDate>Tue, 11 Nov 2025 10:00:00 +0100</pubDate>
+			<category><![CDATA[Click boards]]></category>
+			<link>https://www.mikroe.com/blog/eeprom-14-click-featuring-automotive-grade-high-endurance-eeprom-for-reliable-long-term-data-storage</link>
+			<description xml:space="preserve"><![CDATA[Get reliable non-volatile data storage for critical embedded applications with 24LC512
+
+ 
+
+EEPROM 14 Click is a compact add-on board that provides reliable non-volatile data storage for  [...]]]></description>
+		</item>
+		<item>
+			<guid>https://www.mikroe.com/blog/release-for-mon-nov-10</guid>
+			<title><![CDATA[Release for Mon Nov 10]]></title>
+			<pubDate>Mon, 10 Nov 2025 10:10:15 +0100</pubDate>
+			<category><![CDATA[SW daily release]]></category>
+			<link>https://www.mikroe.com/blog/release-for-mon-nov-10</link>
+			<description xml:space="preserve"><![CDATA[New:
+
+
+	Driver for Push Button Click
+	R7KA8P1J CODEGRIP Device Pack
+	RA8T2AF CODEGRIP Device Pack
+	RA8T2J CODEGRIP Device Pack
+	R7KA8P1J MCU Support package for GCC & Clang
+	RA8T2AF MCU Support [...]]]></description>
+		</item>
+		<item>
+			<guid>https://www.mikroe.com/blog/push-button-click-designed-for-onoff-control-and-battery-freshness-management-through-a-pushbutton-interface</guid>
+			<title><![CDATA[Push Button Click designed for ON/OFF control and battery freshness management t]]></title>
+			<pubDate>Mon, 10 Nov 2025 10:00:00 +0100</pubDate>
+			<category><![CDATA[Click boards]]></category>
+			<link>https://www.mikroe.com/blog/push-button-click-designed-for-onoff-control-and-battery-freshness-management-through-a-pushbutton-interface</link>
+			<description xml:space="preserve"><![CDATA[Enable reliable pushbutton operation with debounce, latch, and interrupt functions for clean power management using the MAX16169
+
+ 
+
+Push Button Click is a compact add-on board designed to  [...]]]></description>
+		</item>
+		<item>
+			<guid>https://www.mikroe.com/blog/release-for-fri-nov-07</guid>
+			<title><![CDATA[Release for Fri Nov 07]]></title>
+			<pubDate>Fri, 07 Nov 2025 10:09:25 +0100</pubDate>
+			<category><![CDATA[SW daily release]]></category>
+			<link>https://www.mikroe.com/blog/release-for-fri-nov-07</link>
+			<description xml:space="preserve"><![CDATA[New:
+
+
+	CY8C4127LDS CODEGRIP Device Pack
+	R7KA8D2K CODEGRIP Device Pack
+	RA8M2A CODEGRIP Device Pack
+	CY8C4127LDS MCU Support package for GCC & Clang
+	R7KA8D2K MCU Support package for GCC & [...]]]></description>
+		</item>
+		<item>
+			<guid>https://www.mikroe.com/blog/vibration-erm-motor-85k-rpm-designed-to-provide-strong-haptic-feedback-in-space-constrained-electronics</guid>
+			<title><![CDATA[Vibration ERM Motor 8.5K RPM designed to provide strong haptic feedback in space]]></title>
+			<pubDate>Fri, 07 Nov 2025 10:00:00 +0100</pubDate>
+			<category><![CDATA[Click boards]]></category>
+			<link>https://www.mikroe.com/blog/vibration-erm-motor-85k-rpm-designed-to-provide-strong-haptic-feedback-in-space-constrained-electronics</link>
+			<description xml:space="preserve"><![CDATA[Provide powerful haptic feedback using the high-force 8.500 RPM 12 mm ERM coin motor (C1234BLDCL27)
+
+ 
+
+Vibration ERM Motor 8.5K RPM (C1234BLDCL27) provides strong and reliable tactile  [...]]]></description>
+		</item>
+		<item>
+			<guid>https://www.mikroe.com/blog/590-dev-board-with-mikrobus-socket</guid>
+			<title><![CDATA[590th dev board with mikroBUS™ socket]]></title>
+			<pubDate>Fri, 07 Nov 2025 08:20:07 +0100</pubDate>
+			<category><![CDATA[mikroBUS™]]></category>
+			<link>https://www.mikroe.com/blog/590-dev-board-with-mikrobus-socket</link>
+			<description xml:space="preserve"><![CDATA[Discover a new dev board featuring
+mikroBUS™ socket!
+ 
+
+
+
+590 DEV BOARDS
+WITH mikroBUS™
+SOCKET
+
+
+ 
+
+
+Today, we present 5th board from STMicroelectronics that has adopted the mikroBU [...]]]></description>
+		</item>
+		<item>
+			<guid>https://www.mikroe.com/blog/release-for-thu-nov-06</guid>
+			<title><![CDATA[Release for Thu Nov 06]]></title>
+			<pubDate>Thu, 06 Nov 2025 10:10:06 +0100</pubDate>
+			<category><![CDATA[SW daily release]]></category>
+			<link>https://www.mikroe.com/blog/release-for-thu-nov-06</link>
+			<description xml:space="preserve"><![CDATA[New:
+
+
+	R7KA8D2J CODEGRIP Device Pack
+	R7KA8M2J CODEGRIP Device Pack
+	RA8D2B CODEGRIP Device Pack
+	R7KA8D2J MCU Support package for GCC & Clang
+	R7KA8M2J MCU Support package for GCC & [...]]]></description>
+		</item>
+		<item>
+			<guid>https://www.mikroe.com/blog/mission-critical-embedded-systems-in-aerospace-applications</guid>
+			<title><![CDATA[Mission-Critical Embedded Systems in Aerospace Applications]]></title>
+			<pubDate>Thu, 06 Nov 2025 10:00:00 +0100</pubDate>
+			<category><![CDATA[Learn]]></category>
+			<link>https://www.mikroe.com/blog/mission-critical-embedded-systems-in-aerospace-applications</link>
+			<description xml:space="preserve"><![CDATA[Explore the pivotal role of embedded systems in aerospace applications, ensuring safety, efficiency, and innovation in flight control systems and aerospace electronics.]]></description>
+		</item>
+		<item>
+			<guid>https://www.mikroe.com/blog/mikrosdk-update-v2170</guid>
+			<title><![CDATA[mikroSDK update v2.17.0]]></title>
+			<pubDate>Thu, 06 Nov 2025 09:17:33 +0100</pubDate>
+			<category><![CDATA[Compiler releases]]></category>
+			<category><![CDATA[Compilers Roadmap Update]]></category>
+			<category><![CDATA[Product Announcement]]></category>
+			<link>https://www.mikroe.com/blog/mikrosdk-update-v2170</link>
+			<description xml:space="preserve"><![CDATA[Toshiba TMPM4K Series Support Added – Initial integration of the Toshiba TMPM4K Series Arm® Cortex®-M4 microcontrollers, bringing baseline mikroBUS™ functionality and essential clock and power co [...]]]></description>
+		</item>
+		<item>
+			<guid>https://www.mikroe.com/blog/589-mikrobus-dev-boards</guid>
+			<title><![CDATA[New Ambiq dev board with mikroBUS™ socket]]></title>
+			<pubDate>Wed, 05 Nov 2025 14:25:16 +0100</pubDate>
+			<category><![CDATA[mikroBUS™]]></category>
+			<link>https://www.mikroe.com/blog/589-mikrobus-dev-boards</link>
+			<description xml:space="preserve"><![CDATA[Discover a new dev board featuring
+mikroBUS™ socket!
+ 
+
+
+
+589 DEV BOARDS
+WITH mikroBUS™
+SOCKET
+
+
+ 
+
+
+Today, we present 3rd board from Ambiq that has adopted the mikroBUS™ standard t [...]]]></description>
+		</item>
+		<item>
+			<guid>https://www.mikroe.com/blog/release-for-wed-nov-05</guid>
+			<title><![CDATA[Release for Wed Nov 05]]></title>
+			<pubDate>Wed, 05 Nov 2025 10:09:52 +0100</pubDate>
+			<category><![CDATA[SW daily release]]></category>
+			<link>https://www.mikroe.com/blog/release-for-wed-nov-05</link>
+			<description xml:space="preserve"><![CDATA[New:
+
+
+	Driver for PAC1711 Click
+	R7KA8P1K CODEGRIP Device Pack
+	RA8D2A CODEGRIP Device Pack
+	RA8T2L CODEGRIP Device Pack
+	R7KA8P1K MCU Support package for GCC & Clang
+	RA8D2A MCU Support [...]]]></description>
+		</item>
+		<item>
+			<guid>https://www.mikroe.com/blog/pac1711-click-designed-as-power-monitor-with-real-time-voltage-current-and-power-measurement</guid>
+			<title><![CDATA[PAC1711 Click designed as power monitor with real-time voltage, current, and pow]]></title>
+			<pubDate>Wed, 05 Nov 2025 10:00:00 +0100</pubDate>
+			<category><![CDATA[Click boards]]></category>
+			<link>https://www.mikroe.com/blog/pac1711-click-designed-as-power-monitor-with-real-time-voltage-current-and-power-measurement</link>
+			<description xml:space="preserve"><![CDATA[Enable accurate current and voltage tracking up to 42V and 13.5A with PAC1711
+
+ 
+
+PAC1711 Click is a compact add-on board that provides accurate real-time measurement of voltage, current,  [...]]]></description>
+		</item>
+		<item>
+			<guid>https://www.mikroe.com/blog/release-for-tue-nov-04</guid>
+			<title><![CDATA[Release for Tue Nov 04]]></title>
+			<pubDate>Tue, 04 Nov 2025 10:10:19 +0100</pubDate>
+			<category><![CDATA[SW daily release]]></category>
+			<link>https://www.mikroe.com/blog/release-for-tue-nov-04</link>
+			<description xml:space="preserve"><![CDATA[New:
+
+
+	RA8D1 CODEGRIP Device Pack
+	RA8E1 CODEGRIP Device Pack
+	RA8E2 CODEGRIP Device Pack
+	RA8M1 CODEGRIP Device Pack
+	RA8D1 MCU Support package for GCC & Clang
+	RA8E1 MCU Support package for [...]]]></description>
+		</item>
+		<item>
+			<guid>https://www.mikroe.com/blog/necto-studio-741</guid>
+			<title><![CDATA[NECTO Studio Update  7.4.1]]></title>
+			<pubDate>Tue, 04 Nov 2025 10:01:54 +0100</pubDate>
+			<category><![CDATA[Compiler releases]]></category>
+			<category><![CDATA[Compilers]]></category>
+			<link>https://www.mikroe.com/blog/necto-studio-741</link>
+			<description xml:space="preserve"><![CDATA[Improved GIT Authentication, Visual Code Generator & Package Manager Enhancements, and 435 New MCUs in CODEGRIP Programmer & Debugger
+
+WHAT&#39;S NEW?
+
+Added secure GIT authentication saving [...]]]></description>
+		</item>
+		<item>
+			<guid>https://www.mikroe.com/blog/how-do-you-validate-analog-accuracy-lets-do-it-with-necto</guid>
+			<title><![CDATA[How Do You Validate Analog Accuracy? Let’s Do It with NECTO!]]></title>
+			<pubDate>Tue, 04 Nov 2025 10:00:00 +0100</pubDate>
+			<category><![CDATA[Lets Make]]></category>
+			<link>https://www.mikroe.com/blog/how-do-you-validate-analog-accuracy-lets-do-it-with-necto</link>
+			<description xml:space="preserve"><![CDATA[How accurate are your analog measurements, really? Easily validate analog signal accuracy across multiple ADCs and DACs.]]></description>
+		</item>
+		<item>
+			<guid>https://www.mikroe.com/blog/588-mikrobus-dev-boards</guid>
+			<title><![CDATA[Discover a new dev board from u-blox with mikroBUS™ socket]]></title>
+			<pubDate>Mon, 03 Nov 2025 10:30:14 +0100</pubDate>
+			<category><![CDATA[mikroBUS™]]></category>
+			<link>https://www.mikroe.com/blog/588-mikrobus-dev-boards</link>
+			<description xml:space="preserve"><![CDATA[Discover a new dev board featuring
+mikroBUS™ socket!
+ 
+
+
+
+588 DEV BOARDS
+WITH mikroBUS™
+SOCKET
+
+
+ 
+
+
+Today, we present 7th board from u-blox that has adopted the mikroBUS™ standard  [...]]]></description>
+		</item>
+	</channel>
+</rss>
