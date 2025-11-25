@@ -1,0 +1,21 @@
+main
+	__CC2D
+	init
+		DelayMs
+		outcw
+		outd
+	clear_lcd
+		outcw
+		outd
+	outcw
+	ScanKbd
+	DelayMs
+	outd
+	atoi
+		isdigit
+		Mul_16x16
+	Mul_16x16
+	Div_16x16_S
+		Div_16x16_U
+INT0_Interrupt
+Timer1InterruptHandler

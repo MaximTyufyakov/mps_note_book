@@ -51,7 +51,11 @@ void wr_EEPROM(unsigned int addr,unsigned char data)
   WMCON|=0x10;                                //Разрешаем запись в EEPROM
   ACC =data;                                //Данные в аккумулятор
   #asm
+<<<<<<< HEAD
 //  movx @DPTR,A                                //Запись
+=======
+  movx @DPTR,A                                //Запись
+>>>>>>> f0b1defc4b73799d2d6dc6dd3f06e9764ee6ddca
   #endasm
   WMCON&=0xef;                                //Запрещаем запись в EEPROM
 }
@@ -63,7 +67,11 @@ unsigned char rd_EEPROM(unsigned int addr)
   DP0L=addr;
   DP0H=addr>>8;                                //Заносим адрес в регистр DP0
   #asm
+<<<<<<< HEAD
 //  movx A,@DPTR                                //Запись
+=======
+  movx A,@DPTR                                //Запись
+>>>>>>> f0b1defc4b73799d2d6dc6dd3f06e9764ee6ddca
   #endasm
   return ACC;                                //Возвращаем содержимое аккумулятора
 }
@@ -207,7 +215,7 @@ void init(){
   ROM_VECTOR(TM0, int_timer0);
   ROM_VECTOR(XT0, int_XT0);
   ROM_VECTOR(XT1, int_XT1);
-  ROM_VECTOR(S0, int_UART);
+//  ROM_VECTOR(S0, int_UART);
 //Memory
   WMCON|=0x08;        // internal EEPROM enable - movx будет работать с EEPROM
   WMCON&=0xfb;  // DPTR = DP0 - установка текущего указателя данных

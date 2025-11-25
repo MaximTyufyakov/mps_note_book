@@ -1,12 +1,12 @@
 [DEVICE]
 Name=AT89S8252
-Clock=11058999
+Clock=12000000
 [MEMORY_MODEL]
 Value=0
 [BUILD_TYPE]
 Value=0
 [ACTIVE_TAB]
-Value=NoteBook.c
+Value=Drv.c
 [USE_EEPROM]
 Value=0
 [EEPROM_DEFINITION]
@@ -14,15 +14,18 @@ Value=
 [PLL_FACTOR]
 Value=1
 [FILES]
-Count=1
-File0=NoteBook.c
+Count=2
+File0=Calc2.c
+File1=Drv.c
 [BINARIES]
 Count=0
 [IMAGES]
 Count=0
 ActiveImageIndex=-1
 [OPENED_FILES]
-Count=0
+Count=2
+File0=Calc2.c
+File1=Drv.c
 [EEPROM]
 Count=0
 [ACTIVE_COMMENTS_FILES]
@@ -30,19 +33,19 @@ Count=0
 [OTHER_FILES]
 Count=0
 [SEARCH_PATH]
-Count=6
+Count=4
 Path0=D:\Repos\mps_note_book\mikroC PRO for 8051\defs\
 Path1=D:\Repos\mps_note_book\mikroC PRO for 8051\Uses\ATMEL\
-Path2=D:\Repos\mps_note_book\NoteBook\
-Path3=D:\Учёба\4 Курс\МПС\4 ЛР\mikroC PRO for 8051\defs\
-Path4=D:\Учёба\4 Курс\МПС\4 ЛР\mikroC PRO for 8051\Uses\ATMEL\
-Path5=D:\Учёба\4 Курс\МПС\4 ЛР\NoteBook\
+Path2=D:\Repos\mps_note_book\Calc2\
+Path3=D:\Repos\mps_note_book\mikroC PRO for 8051\Include\
 [HEADER_PATH]
-Count=1
-Path0=D:\Repos\mps_note_book\Svetofor_avtomat (Демида)\
+Count=2
+Path0=D:\Repos\mps_note_book\Calc2\
+Path1=D:\Repos\mps_note_book\mikroC PRO for 8051\Include\
 [HEADERS]
-Count=1
-File0=..\Svetofor_avtomat (Демида)\1wire.h
+Count=2
+File0=drv.h
+File1=..\mikroC PRO for 8051\Include\string.h
 [PLDS]
 Count=0
 [Useses]
@@ -84,6 +87,6 @@ File33=Time
 File34=Trigonometry
 File35=UART
 [EXPANDED NODES]
-Node1=Sources
-Node2=Header Files
+Node1=Header Files
+Node2=Output Files
 Count=2
