@@ -63,23 +63,23 @@ unsigned char ScanKbd(void) {
   P0 = P0&0x1F|0xC0;    //столбец 1
   for(i=0;i<10;i++);
   if (!P1_0_bit) kp = 1;
-//  else if (!P1_1_bit) kp = 2;
-//  else if (!P1_2_bit) kp = 3;
-//  else if (!P1_3_bit) kp = 4;
+  else if (!P1_1_bit) kp = 2;
+  else if (!P1_2_bit) kp = 3;
+  else if (!P1_3_bit) kp = 4;
 
   P0 = P0&0x1F|0xA0;    //столбец 2
   for(i=0;i<10;i++);
   if (!P1_0_bit) kp = 2;
-  //else if (!P1_1_bit) kp = '5';
-  //else if (!P1_2_bit) kp = '2';
-  //else if (!P1_3_bit) kp = '0';
+  else if (!P1_1_bit) kp = '5';
+  else if (!P1_2_bit) kp = '2';
+  else if (!P1_3_bit) kp = '0';
   
   P0 = P0&0x1F|0x60;    //столбец 3
   for(i=0;i<10;i++);
   if (!P1_0_bit) kp = 3;
-  //else if (!P1_1_bit) kp = '6';
-  //else if (!P1_2_bit) kp = '3';
-  //else if (!P1_3_bit) kp = 13;
+  else if (!P1_1_bit) kp = '6';
+  else if (!P1_2_bit) kp = '3';
+  else if (!P1_3_bit) kp = 13;
   return kp;
 }
 

@@ -181,7 +181,28 @@ L_ScanKbd19:
 	JB P1_0_bit+0, L_ScanKbd21
 	NOP
 	MOV ScanKbd_kp_L0+0, #1
+	SJMP L_ScanKbd22
 L_ScanKbd21:
+;Drv.c,66 :: 		else if (!P1_1_bit) kp = 2;
+	JB P1_1_bit+0, L_ScanKbd23
+	NOP
+	MOV ScanKbd_kp_L0+0, #2
+	SJMP L_ScanKbd24
+L_ScanKbd23:
+;Drv.c,67 :: 		else if (!P1_2_bit) kp = 3;
+	JB P1_2_bit+0, L_ScanKbd25
+	NOP
+	MOV ScanKbd_kp_L0+0, #3
+	SJMP L_ScanKbd26
+L_ScanKbd25:
+;Drv.c,68 :: 		else if (!P1_3_bit) kp = 4;
+	JB P1_3_bit+0, L_ScanKbd27
+	NOP
+	MOV ScanKbd_kp_L0+0, #4
+L_ScanKbd27:
+L_ScanKbd26:
+L_ScanKbd24:
+L_ScanKbd22:
 ;Drv.c,70 :: 		P0 = P0&0x1F|0xA0;    //столбец 2
 	MOV A, P0+0
 	ANL A, #31
@@ -190,19 +211,40 @@ L_ScanKbd21:
 	MOV P0+0, A
 ;Drv.c,71 :: 		for(i=0;i<10;i++);
 	MOV ScanKbd_i_L0+0, #0
-L_ScanKbd22:
+L_ScanKbd28:
 	CLR C
 	MOV A, ScanKbd_i_L0+0
 	SUBB A, #10
-	JNC L_ScanKbd23
+	JNC L_ScanKbd29
 	INC ScanKbd_i_L0+0
-	SJMP L_ScanKbd22
-L_ScanKbd23:
+	SJMP L_ScanKbd28
+L_ScanKbd29:
 ;Drv.c,72 :: 		if (!P1_0_bit) kp = 2;
-	JB P1_0_bit+0, L_ScanKbd25
+	JB P1_0_bit+0, L_ScanKbd31
 	NOP
 	MOV ScanKbd_kp_L0+0, #2
-L_ScanKbd25:
+	SJMP L_ScanKbd32
+L_ScanKbd31:
+;Drv.c,73 :: 		else if (!P1_1_bit) kp = '5';
+	JB P1_1_bit+0, L_ScanKbd33
+	NOP
+	MOV ScanKbd_kp_L0+0, #53
+	SJMP L_ScanKbd34
+L_ScanKbd33:
+;Drv.c,74 :: 		else if (!P1_2_bit) kp = '2';
+	JB P1_2_bit+0, L_ScanKbd35
+	NOP
+	MOV ScanKbd_kp_L0+0, #50
+	SJMP L_ScanKbd36
+L_ScanKbd35:
+;Drv.c,75 :: 		else if (!P1_3_bit) kp = '0';
+	JB P1_3_bit+0, L_ScanKbd37
+	NOP
+	MOV ScanKbd_kp_L0+0, #48
+L_ScanKbd37:
+L_ScanKbd36:
+L_ScanKbd34:
+L_ScanKbd32:
 ;Drv.c,77 :: 		P0 = P0&0x1F|0x60;    //столбец 3
 	MOV A, P0+0
 	ANL A, #31
@@ -211,19 +253,40 @@ L_ScanKbd25:
 	MOV P0+0, A
 ;Drv.c,78 :: 		for(i=0;i<10;i++);
 	MOV ScanKbd_i_L0+0, #0
-L_ScanKbd26:
+L_ScanKbd38:
 	CLR C
 	MOV A, ScanKbd_i_L0+0
 	SUBB A, #10
-	JNC L_ScanKbd27
+	JNC L_ScanKbd39
 	INC ScanKbd_i_L0+0
-	SJMP L_ScanKbd26
-L_ScanKbd27:
+	SJMP L_ScanKbd38
+L_ScanKbd39:
 ;Drv.c,79 :: 		if (!P1_0_bit) kp = 3;
-	JB P1_0_bit+0, L_ScanKbd29
+	JB P1_0_bit+0, L_ScanKbd41
 	NOP
 	MOV ScanKbd_kp_L0+0, #3
-L_ScanKbd29:
+	SJMP L_ScanKbd42
+L_ScanKbd41:
+;Drv.c,80 :: 		else if (!P1_1_bit) kp = '6';
+	JB P1_1_bit+0, L_ScanKbd43
+	NOP
+	MOV ScanKbd_kp_L0+0, #54
+	SJMP L_ScanKbd44
+L_ScanKbd43:
+;Drv.c,81 :: 		else if (!P1_2_bit) kp = '3';
+	JB P1_2_bit+0, L_ScanKbd45
+	NOP
+	MOV ScanKbd_kp_L0+0, #51
+	SJMP L_ScanKbd46
+L_ScanKbd45:
+;Drv.c,82 :: 		else if (!P1_3_bit) kp = 13;
+	JB P1_3_bit+0, L_ScanKbd47
+	NOP
+	MOV ScanKbd_kp_L0+0, #13
+L_ScanKbd47:
+L_ScanKbd46:
+L_ScanKbd44:
+L_ScanKbd42:
 ;Drv.c,83 :: 		return kp;
 	MOV R0, ScanKbd_kp_L0+0
 ;Drv.c,84 :: 		}
@@ -237,19 +300,19 @@ _clear_lcd:
 	LCALL _outcw+0
 ;Drv.c,89 :: 		for(i=0;i<16;i++)
 	MOV clear_lcd_i_L0+0, #0
-L_clear_lcd30:
+L_clear_lcd48:
 	CLR C
 	MOV A, clear_lcd_i_L0+0
 	SUBB A, #16
-	JNC L_clear_lcd31
+	JNC L_clear_lcd49
 ;Drv.c,90 :: 		outd(' ');
 	MOV FARG_outd_c+0, #32
 	LCALL _outd+0
 ;Drv.c,89 :: 		for(i=0;i<16;i++)
 	INC clear_lcd_i_L0+0
 ;Drv.c,90 :: 		outd(' ');
-	SJMP L_clear_lcd30
-L_clear_lcd31:
+	SJMP L_clear_lcd48
+L_clear_lcd49:
 ;Drv.c,91 :: 		}
 	RET
 ; end of _clear_lcd
@@ -275,45 +338,45 @@ _outcw:
 	MOV P3_7_bit+0, A
 ;Drv.c,100 :: 		for (i=0; i<20; i++);
 	MOV outcw_i_L0+0, #0
-L_outcw33:
+L_outcw51:
 	CLR C
 	MOV A, outcw_i_L0+0
 	SUBB A, #20
-	JNC L_outcw34
+	JNC L_outcw52
 	INC outcw_i_L0+0
-	SJMP L_outcw33
-L_outcw34:
+	SJMP L_outcw51
+L_outcw52:
 ;Drv.c,101 :: 		if (c==1||c==2||c==3)
 	MOV A, FARG_outcw_c+0
 	XRL A, #1
-	JZ L__outcw45
+	JZ L__outcw63
 	MOV A, FARG_outcw_c+0
 	XRL A, #2
-	JZ L__outcw45
+	JZ L__outcw63
 	MOV A, FARG_outcw_c+0
 	XRL A, #3
-	JZ L__outcw45
-	SJMP L_outcw38
-L__outcw45:
+	JZ L__outcw63
+	SJMP L_outcw56
+L__outcw63:
 ;Drv.c,102 :: 		for (j=0; j<500; j++);
 	MOV outcw_j_L0+0, #0
 	MOV outcw_j_L0+1, #0
-L_outcw39:
+L_outcw57:
 	CLR C
 	MOV A, outcw_j_L0+0
 	SUBB A, #244
 	MOV A, outcw_j_L0+1
 	SUBB A, #1
-	JNC L_outcw40
+	JNC L_outcw58
 	MOV A, #1
 	ADD A, outcw_j_L0+0
 	MOV outcw_j_L0+0, A
 	MOV A, #0
 	ADDC A, outcw_j_L0+1
 	MOV outcw_j_L0+1, A
-	SJMP L_outcw39
-L_outcw40:
-L_outcw38:
+	SJMP L_outcw57
+L_outcw58:
+L_outcw56:
 ;Drv.c,103 :: 		}
 	RET
 ; end of _outcw
@@ -339,14 +402,14 @@ _outd:
 	MOV P3_7_bit+0, A
 ;Drv.c,111 :: 		for (i=0; i<21; i++);
 	MOV outd_i_L0+0, #0
-L_outd42:
+L_outd60:
 	CLR C
 	MOV A, outd_i_L0+0
 	SUBB A, #21
-	JNC L_outd43
+	JNC L_outd61
 	INC outd_i_L0+0
-	SJMP L_outd42
-L_outd43:
+	SJMP L_outd60
+L_outd61:
 ;Drv.c,112 :: 		}
 	RET
 ; end of _outd
