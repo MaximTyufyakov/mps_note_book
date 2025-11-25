@@ -1,4 +1,4 @@
-#line 1 "C:/Documents and Settings/student/Рабочий стол/mikroC PRO for 8051/Uses/ATMEL/__Lib_GlcdFonts.c"
+#line 1 "D:/Repos/mps_note_book/mikroC PRO for 8051/Uses/ATMEL/__Lib_GlcdFonts.c"
 
 const unsigned short FontSystem5x7_v2[] = {
  0x00,0x00,0x00,0x00,0x00,

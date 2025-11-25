@@ -2,8 +2,8 @@
 _Get_Fosc_kHz:
 ;__Lib_Delays.c,38 :: 		unsigned long Get_Fosc_kHz() {
 ;__Lib_Delays.c,39 :: 		return Clock_kHz();
-	MOV R0, #51
-	MOV R1, #43
+	MOV R0, #224
+	MOV R1, #46
 	MOV A, R1
 	RLC A
 	CLR A
@@ -27,6 +27,7 @@ _Delay_10us:
 ;__Lib_Delays.c,89 :: 		Delay_us(10);
 	MOV R7, 4
 	DJNZ R7, 
+	NOP
 ;__Lib_Delays.c,90 :: 		}
 	RET
 ; end of _Delay_10us
@@ -34,7 +35,7 @@ _Delay_10us:
 _Delay_22us:
 ;__Lib_Delays.c,113 :: 		void Delay_22us() {
 ;__Lib_Delays.c,114 :: 		Delay_us(22);
-	MOV R7, 9
+	MOV R7, 10
 	DJNZ R7, 
 	NOP
 ;__Lib_Delays.c,115 :: 		}
@@ -44,7 +45,7 @@ _Delay_22us:
 _Delay_50us:
 ;__Lib_Delays.c,138 :: 		void Delay_50us() {
 ;__Lib_Delays.c,139 :: 		Delay_us(50);
-	MOV R7, 22
+	MOV R7, 24
 	DJNZ R7, 
 	NOP
 ;__Lib_Delays.c,140 :: 		}
@@ -54,7 +55,7 @@ _Delay_50us:
 _Delay_80us:
 ;__Lib_Delays.c,163 :: 		void Delay_80us() {
 ;__Lib_Delays.c,164 :: 		Delay_us(78);
-	MOV R7, 35
+	MOV R7, 38
 	DJNZ R7, 
 	NOP
 ;__Lib_Delays.c,165 :: 		}
@@ -64,8 +65,9 @@ _Delay_80us:
 _Delay_500us:
 ;__Lib_Delays.c,188 :: 		void Delay_500us() {
 ;__Lib_Delays.c,189 :: 		Delay_us(498);
-	MOV R7, 229
+	MOV R7, 248
 	DJNZ R7, 
+	NOP
 ;__Lib_Delays.c,190 :: 		}
 	RET
 ; end of _Delay_500us
@@ -73,11 +75,10 @@ _Delay_500us:
 _Delay_5500us:
 ;__Lib_Delays.c,213 :: 		void Delay_5500us() {
 ;__Lib_Delays.c,214 :: 		Delay_us(5500);
-	MOV R6, 10
-	MOV R7, 219
+	MOV R6, 11
+	MOV R7, 178
 	DJNZ R7, 
 	DJNZ R6, 
-	NOP
 ;__Lib_Delays.c,215 :: 		}
 	RET
 ; end of _Delay_5500us
@@ -85,11 +86,10 @@ _Delay_5500us:
 _Delay_8ms:
 ;__Lib_Delays.c,238 :: 		void Delay_8ms() {
 ;__Lib_Delays.c,239 :: 		Delay_ms(8);
-	MOV R6, 15
-	MOV R7, 86
+	MOV R6, 16
+	MOV R7, 143
 	DJNZ R7, 
 	DJNZ R6, 
-	NOP
 ;__Lib_Delays.c,240 :: 		}
 	RET
 ; end of _Delay_8ms
@@ -97,8 +97,8 @@ _Delay_8ms:
 _Delay_10ms:
 ;__Lib_Delays.c,263 :: 		void Delay_10ms() {
 ;__Lib_Delays.c,264 :: 		Delay_ms(10);
-	MOV R6, 18
-	MOV R7, 237
+	MOV R6, 20
+	MOV R7, 115
 	DJNZ R7, 
 	DJNZ R6, 
 ;__Lib_Delays.c,265 :: 		}
@@ -108,8 +108,8 @@ _Delay_10ms:
 _Delay_100ms:
 ;__Lib_Delays.c,288 :: 		void Delay_100ms() {
 ;__Lib_Delays.c,289 :: 		Delay_ms(100);
-	MOV R6, 180
-	MOV R7, 74
+	MOV R6, 195
+	MOV R7, 140
 	DJNZ R7, 
 	DJNZ R6, 
 ;__Lib_Delays.c,290 :: 		}
@@ -120,11 +120,12 @@ _Delay_1sec:
 ;__Lib_Delays.c,313 :: 		void Delay_1sec()
 ;__Lib_Delays.c,315 :: 		Delay_ms(1000);
 	MOV R5, 8
-	MOV R6, 1
-	MOV R7, 237
+	MOV R6, 154
+	MOV R7, 124
 	DJNZ R7, 
 	DJNZ R6, 
 	DJNZ R5, 
+	NOP
 ;__Lib_Delays.c,316 :: 		}
 	RET
 ; end of _Delay_1sec
@@ -171,12 +172,12 @@ L_Delay_Cyc1:
 _VDelay_ms:
 ;__Lib_Delays.c,388 :: 		void VDelay_ms(unsigned Time_ms) {
 ;__Lib_Delays.c,391 :: 		NumberOfCyc = Clock_kHz()/12; // this will be done by compiler, no asm will be genereated except that for assignment;
-	MOV VDelay_ms_NumberOfCyc_L0+0, #153
+	MOV VDelay_ms_NumberOfCyc_L0+0, #232
 	MOV VDelay_ms_NumberOfCyc_L0+1, #3
 	MOV VDelay_ms_NumberOfCyc_L0+2, #0
 	MOV VDelay_ms_NumberOfCyc_L0+3, #0
 ;__Lib_Delays.c,392 :: 		NumberOfCyc = NumberOfCyc *  Time_ms;
-	MOV R0, #153
+	MOV R0, #232
 	MOV R1, #3
 	MOV R2, #0
 	MOV R3, #0

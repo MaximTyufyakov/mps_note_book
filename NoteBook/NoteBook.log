@@ -1,9 +1,9 @@
-0	1	mikroc8051.exe -MSF -DBG -pAT89S8252 -ES -DL -O11111114 -fo11.058999 -N"D:\Ó÷¸áà\4 Êóðñ\ÌÏÑ\4 ËÐ\NoteBook\NoteBook.mcp51" -SP"D:\Ó÷¸áà\4 Êóðñ\ÌÏÑ\4 ËÐ\mikroC PRO for 8051\defs\" -SP"D:\Ó÷¸áà\4 Êóðñ\ÌÏÑ\4 ËÐ\mikroC PRO for 8051\Uses\ATMEL\" -SP"D:\Ó÷¸áà\4 Êóðñ\ÌÏÑ\4 ËÐ\NoteBook\" "NoteBook.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_EEPROM_rw.mcl" "__Lib_SPI_SPCR.mcl" "__Lib_UART_Timer1.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_Conversions.mcl" "__Lib_Sprintf.mcl" "__Lib_PrintOut.mcl" "__Lib_Sprinti.mcl" "__Lib_Sprintl.mcl" "__Lib_Time.mcl" "__Lib_Trigonometry.mcl" "__Lib_Button.mcl" "__Lib_Keypad4x4.mcl" "__Lib_Manchester.mcl" "__Lib_OneWire.mcl" "__Lib_PS2.mcl" "__Lib_Sound.mcl" "__Lib_SoftI2C.mcl" "__Lib_SoftSPI.mcl" "__Lib_SoftUART.mcl" "__Lib_PortExpander.mcl" "__Lib_CANSPI.mcl" "__Lib_GlcdFonts.mcl" "__Lib_Glcd.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl" "__Lib_RS485.mcl" "__Lib_T6963C.mcl" "__Lib_SPIGlcd.mcl" "__Lib_SPILcd.mcl" "__Lib_SPILcd8.mcl" "__Lib_SPIT6963C.mcl" "__Lib_EthEnc28j60.mcl"	 
-error: 2	304	 error: Can't open include file "intrpt.h"     #include <intrpt.h>	D:\Ó÷¸áà\4 Êóðñ\ÌÏÑ\4 ËÐ\NoteBook\NoteBook.c
-error: 53	304	 error: Unknown #directive "asm"      #asm	D:\Ó÷¸áà\4 Êóðñ\ÌÏÑ\4 ËÐ\NoteBook\NoteBook.c
-error: 55	304	 error: Unknown #directive "endasm"      #endasm	D:\Ó÷¸áà\4 Êóðñ\ÌÏÑ\4 ËÐ\NoteBook\NoteBook.c
-error: 65	304	 error: Unknown #directive "asm"      #asm	D:\Ó÷¸áà\4 Êóðñ\ÌÏÑ\4 ËÐ\NoteBook\NoteBook.c
-error: 67	304	 error: Unknown #directive "endasm"      #endasm 5 errors in preprocessor.	D:\Ó÷¸áà\4 Êóðñ\ÌÏÑ\4 ËÐ\NoteBook\NoteBook.c
+0	1	mikroc8051.exe -MSF -DBG -pAT89S8252 -ES -DL -O11111114 -fo11.058999 -N"D:\Repos\mps_note_book\NoteBook\NoteBook.mcp51" -SP"D:\Repos\mps_note_book\mikroC PRO for 8051\defs\" -SP"D:\Repos\mps_note_book\mikroC PRO for 8051\Uses\ATMEL\" -SP"D:\Repos\mps_note_book\NoteBook\" -SP"D:\Ó÷¸áà\4 Êóðñ\ÌÏÑ\4 ËÐ\mikroC PRO for 8051\defs\" -SP"D:\Ó÷¸áà\4 Êóðñ\ÌÏÑ\4 ËÐ\mikroC PRO for 8051\Uses\ATMEL\" -SP"D:\Ó÷¸áà\4 Êóðñ\ÌÏÑ\4 ËÐ\NoteBook\" -IP"D:\Repos\mps_note_book\Svetofor_avtomat (Äåìèäà)\" "NoteBook.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_EEPROM_rw.mcl" "__Lib_SPI_SPCR.mcl" "__Lib_UART_Timer1.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_Conversions.mcl" "__Lib_Sprintf.mcl" "__Lib_PrintOut.mcl" "__Lib_Sprinti.mcl" "__Lib_Sprintl.mcl" "__Lib_Time.mcl" "__Lib_Trigonometry.mcl" "__Lib_Button.mcl" "__Lib_Keypad4x4.mcl" "__Lib_Manchester.mcl" "__Lib_OneWire.mcl" "__Lib_PS2.mcl" "__Lib_Sound.mcl" "__Lib_SoftI2C.mcl" "__Lib_SoftSPI.mcl" "__Lib_SoftUART.mcl" "__Lib_PortExpander.mcl" "__Lib_CANSPI.mcl" "__Lib_GlcdFonts.mcl" "__Lib_Glcd.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl" "__Lib_RS485.mcl" "__Lib_T6963C.mcl" "__Lib_SPIGlcd.mcl" "__Lib_SPILcd.mcl" "__Lib_SPILcd8.mcl" "__Lib_SPIT6963C.mcl" "__Lib_EthEnc28j60.mcl"	 
+error: 2	304	 error: Can't open include file "intrpt.h"     #include <intrpt.h>	D:\Repos\mps_note_book\NoteBook\NoteBook.c
+error: 53	304	 error: Unknown #directive "asm"      #asm	D:\Repos\mps_note_book\NoteBook\NoteBook.c
+error: 55	304	 error: Unknown #directive "endasm"      #endasm	D:\Repos\mps_note_book\NoteBook\NoteBook.c
+error: 65	304	 error: Unknown #directive "asm"      #asm	D:\Repos\mps_note_book\NoteBook\NoteBook.c
+error: 67	304	 error: Unknown #directive "endasm"      #endasm 5 errors in preprocessor.	D:\Repos\mps_note_book\NoteBook\NoteBook.c
 diagnostics: 0	122	Compilation Started	89xs8252.h
 error: 21	402	; expected, but '@' found	89xs8252.h
 error: 21	393	'P0' Identifier redefined	89xs8252.h
@@ -17,4 +17,4 @@ error: 22	393	'' Identifier redefined	89xs8252.h
 error: 23	402	; expected, but '@' found	89xs8252.h
 error: 23	393	'DP0L' Identifier redefined	89xs8252.h
 error: 23	312	Internal error ''	89xs8252.h
-error: 0	102	Finished (with errors): 15 íîÿ 2025, 22:24:44	NoteBook.mcp51
+error: 0	102	Finished (with errors): 16 Nov 2025, 21:23:48	NoteBook.mcp51

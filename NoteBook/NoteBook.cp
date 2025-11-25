@@ -1,6 +1,6 @@
-#line 1 "D:/Óק¸בא/4 Êףנס/ÌÏÑ/4 ËÐ/NoteBook/NoteBook.c"
-#line 1 "d:/Óק¸בא/4 Êףנס/ÌÏÑ/4 ËÐ/mikroc pro for 8051/include/89xs8252.h"
-#line 10 "d:/Óק¸בא/4 Êףנס/ÌÏÑ/4 ËÐ/mikroc pro for 8051/include/89xs8252.h"
+#line 1 "D:/Repos/mps_note_book/NoteBook/NoteBook.c"
+#line 1 "d:/repos/mps_note_book/mikroc pro for 8051/include/89xs8252.h"
+#line 10 "d:/repos/mps_note_book/mikroc pro for 8051/include/89xs8252.h"
 typedef struct {
  unsigned B7:1;
  unsigned B6:1;
@@ -216,7 +216,7 @@ static volatile bit B4 @ 0xF4;
 static volatile bit B5 @ 0xF5;
 static volatile bit B6 @ 0xF6;
 static volatile bit B7 @ 0xF7;
-#line 11 "D:/Óק¸בא/4 Êףנס/ÌÏÑ/4 ËÐ/NoteBook/NoteBook.c"
+#line 11 "D:/Repos/mps_note_book/NoteBook/NoteBook.c"
 unsigned char
  ms,
  t1,
